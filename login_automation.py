@@ -7,7 +7,7 @@ window = Tk()
 window.title("Welcome to LikeGeeks app")
 window.geometry('800x600')
 
-
+# access credentials from the txt file 
 def credentials():
     global txt1, txt2
     lbl1 = Label(window, text="Username:")
