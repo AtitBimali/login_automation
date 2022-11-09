@@ -9,8 +9,8 @@ window.geometry('800x600')
 
 
 def credentials():
-    global txt1, txt21
-    lbl1 = Label(window, text="username:")
+    global txt1, txt2
+    lbl1 = Label(window, text="Username:")
     lbl1.grid(column=1, row=0)
     lbl2 = Label(window, text="Password:")
     lbl2.grid(column=1, row=2)
